@@ -1,6 +1,4 @@
-package practice;
-
-public class q3 {
+public class SelectionSort{
 
 	   public static void selectionSort(int[] arr){
 	        int n = arr.length;
@@ -10,8 +8,7 @@ public class q3 {
 	                if(arr[j] < arr[min_index]){
 	                    min_index = j;
 	                }
-	            }
-	           
+	            }	           
 	            int temp = arr[i];
 	            arr[i] = arr[min_index];
 	            arr[min_index] = temp;
