@@ -1,6 +1,4 @@
-package practice;
-
-public class q2 {
+public class InsertionSort{
 		   public static void insertionSort(int[] a){
 		        int n = a.length;
 		        for(int i = 1; i < n; i++){
@@ -20,8 +18,7 @@ public class q2 {
 		        for(int val : a){
 		            System.out.print(val + " ");
 		        }
-		    }
-	
+		    }	
 	}
 
 
