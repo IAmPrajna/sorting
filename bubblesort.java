@@ -1,7 +1,4 @@
-package practice;
-
-public class q1 {
-
+public class BubbleSort {
 	public static void bubbleSort(int[] a){
 	        int n = a.length;
 	        for(int i = 0; i < n-1; i++){
@@ -14,7 +11,6 @@ public class q1 {
 	            }
 	        }
 	    }
-
 	    public static void main(String[] args) {
 	        int[] a = {5, 4, 1, 2, 3};
 	        bubbleSort(a);
